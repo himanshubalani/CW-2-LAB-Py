@@ -2,7 +2,7 @@
 import math
 
 # Taking the input from user
-number = int(input("Enter the Number"))
+number = int(input("Enter the Number: "))
 
 root = math.sqrt(number)  #Square Root
 if int(root + 0.5) ** 2 == number:
